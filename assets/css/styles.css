@@ -1,0 +1,331 @@
+/* principal */
+
+:root{
+    --azul-primario: #3591E5;
+    --azul-oscuro-primario:#26374b;
+    --boton-primario: #2FBAE0;
+    /* --background-claro: #47f5ec21; */
+    /* --background-claro:#47f5ec1a; */
+    --background-claro:#47f5ec0f;
+    --azul-secundario: #1ACEFF;
+    --blancos: #FFFFFF;
+    --negros-primarios:#000000;
+    /* --negros-secundarios:#000000; */
+    --negros-secundarios:#000000ad;
+    --transparente:#C4C4C4;
+
+    /* colores a las tarjetas */
+    --t_azul:#3591E5;
+    --t_turqueza:#45B6DE;
+    --t_cielo:#58F0F5;
+    --t_melon:#ff980099;
+    --t_gusano:#78FFC2;
+
+    --t_verd:#26e0a2b8;
+    --t_menta:#3fd4c2;
+
+    --t_vfluorecente:#66FFA0;
+
+    /* color para los seguros */
+    --s_azul_claro: #6fa1f0;
+    --s_amarillo:#f2be2c;
+    --s_menta:#3fd4c2;
+    --s_rosa:#f37777;
+    --s_cielo:#63d2ff;
+}
+
+section{
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.btn-primary{
+    background-color: var(--azul-oscuro-primario);
+    color: var(--blancos);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-secoundary{
+    background-color: var(--azul-secundario);
+    color: var(--blancos);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-secoundary:hover {
+    background: var(--azul-oscuro-primario);
+    color: var(--blancos);
+}
+
+/* navbar */
+/* nav.navbar.fixed-top.navbar-light.bg-light {
+    box-shadow: 2px 22px 13px -13px rgb(0 0 0 / 10%);
+} */
+
+.logo_kalifa{
+    width: 18%;
+}
+
+.bar-menu{
+    color: var(--azul-primario);
+    background: var(--blancos);
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 2px 22px 13px -13px rgb(0 0 0 / 10%);
+}
+
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color:var(--azul-oscuro-primario);
+}
+
+span.navbar-toggler-icon {
+    border: 1px solid;
+    border-radius: 6px;
+}
+
+/* compania */
+#sec_compania{
+    background-color: var(--background-claro);
+    border-radius: 12px;
+}
+
+.title-secction{
+    color:var(--azul-primario);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.msg-compania{
+    margin: 12% 3% 3% 3%;
+    color: var(--azul-primario);
+}
+
+/* comentarios */
+.caja-comentarios {
+    border: 1px solid #0000002e;
+    border-radius: 12px;
+    box-shadow: 0px 10px 15px -3px rgb(0 0 0 / 10%);
+    height: 290px;
+}
+
+.seccion_comentario {
+    /* margin: 17px; */
+    margin: 18px 17px 32px 17px;
+}
+
+.name-cliente {
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--negros-primarios);
+    margin: 0% 0% 6% 0%;
+}
+
+.comentario-client{
+    color: var(--negros-secundarios);
+}
+
+ol.carousel-indicators.comentarios {
+    bottom: -45px;
+}
+.carousel-indicators.comentarios li {
+    background: var(--azul-oscuro-primario);
+    border-radius: 50%;
+    width: 15px;
+    height: 0px;
+}
+
+.target-seguro {
+    width: 14%;
+    height: 148px;
+    margin: 0px 3% 0px 3%;
+    border-radius: 22px;
+    background: #4d9af45c;
+
+    transition: all 400ms ease;
+}
+
+.target-seguro:hover{
+    box-shadow: 13px 16px 4px -2px rgba(0,0,0,0.1);
+    transform: translateY(-3%);
+    /* animation-delay: 2s,4ms;
+    width: 145px; */
+}
+
+.gastos_medicos{
+    /* background: var(--t_verd); */
+    background: var(--s_azul_claro);
+    /* #6fa1f0 */
+    /* azul claro */
+}
+
+.vida{
+    /* background: var(--t_turqueza); */
+    background: var(--s_amarillo);
+    /* #155a8dd9 */
+}
+
+.auto{
+    /* background:var(--t_melon); */
+    background: var(--s_menta);
+    /* #f2be2c */
+    /* amarillo */
+}
+
+.hogar{
+    /* background: var(--t_cielo); */
+    background: var(--s_rosa);
+    /* #f37777 */
+    /* rosa */
+}
+
+.ahorro{
+    /* background: var(--t_menta); */
+    background: var(--s_cielo);
+    /* #63d2ff */
+    /* cielo */
+}
+
+.title-target {
+    height: 47px;
+    margin: 9px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--blancos);
+}
+
+.img-target {
+    width: 47%;
+}
+
+/* footer */
+footer{
+    background: var(--azul-primario);
+}
+
+.footer-principal{
+    margin: 2% 0px 2% 0px;
+}
+
+.compania {
+    margin-top: 26px;
+    margin-bottom: 23px;
+}
+
+.logo_footer{
+    width: 50%;
+}
+
+.s_media {
+    margin: 2%;
+    border-radius: 50%;
+    width: 32px;
+    height: 33px;
+    background: var(--boton-primario);
+}
+
+.s_media:hover{
+    background: var(--azul-oscuro-primario);
+}
+
+.logo{
+    margin-top: 1px;
+}
+
+#email-boletin {
+    width: 231px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    background: var(--transparente);
+}
+
+.label-decoration {
+    color: white;
+    margin-bottom: 0px;
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 4px;
+    letter-spacing: 2px;
+}
+
+.boletin {
+    margin-top: 5%;
+    margin-left: -5px;
+}
+
+.seccion_down{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+/* seccion empresa */
+.title_section_footer {
+    font-size: 12px;
+    color: var(--azul-secundario);
+    font-weight: 700;
+    text-align: start;
+    letter-spacing: 1px;
+}
+
+ul.servicios {
+    margin-inline-start: -39px;
+}
+
+.list-services {
+    display: inline;
+}
+
+.item_service {
+    color: white;
+    display: inline;
+    margin-right: 4px;
+    font-size: 11px;
+}
+
+.item_service:hover{
+    color:var(--azul-oscuro-primario);
+    text-decoration: none;
+}
+
+.content-secction {
+    color: white;
+    font-size: 11px;
+}
+
+.line_item {
+    margin-bottom: -3px;
+}
+
+.segundo_h {
+    margin-left: 73px;
+}
+.map {
+    margin-top: 2%;
+    width: 100%;
+    border-radius: 16px;
+    margin-left: -14px;
+}
+
+#linea {
+    border: none;
+    height: 1px;
+    background:var(--blancos);
+}
+
+#creditos{
+    margin-top: 3em;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    font-size: .667em;
+    color: #bac7a7;
+    font-family: Heebo,sans-serif;
+    margin-bottom: 2em;
+}
+
