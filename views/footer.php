@@ -8,7 +8,7 @@
                         <div class="footer-principal">
                             <div class="compania">
                                 <a href="#" class="">
-                                    <img class="logo_footer" src="assets/img/LogoKalifa.png" alt="">
+                                    <img class="logo_footer" src="assets/img/icons_seguros/Kcblancoicono.png" alt="">
                                 </a>
                             </div>
                             <div class="redes_sociales">

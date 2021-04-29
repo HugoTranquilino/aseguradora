@@ -11,7 +11,7 @@
                         <li data-target="#carouselExampleIndicators12" data-slide-to="1"></li>
                     </ol>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item item-comentarios active">
                             <div class="row">
                                 <div class="col-md-3">
                                     <div class="caja-comentarios">
@@ -63,7 +63,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item item-comentarios">
                             <div class="row">
                                 <div class="col-md-3">
                                     <div class="caja-comentarios">
