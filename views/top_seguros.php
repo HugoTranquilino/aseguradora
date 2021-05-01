@@ -7,7 +7,7 @@
             <div class="carousel-inner" id="seguros">
                 <div class="carousel-item active">
                     <div class="row">
-                        <div class="target-seguro gastos_medicos">
+                        <div class="target-seguro seguro_1">
                             <div class="title-target">
                                 <label for="title-seguro">SEGURO DE GASTOS MÉDICOS</label>
                             </div>
@@ -17,7 +17,7 @@
                                 </center>
                             </div>
                         </div>
-                        <div class="target-seguro vida">
+                        <div class="target-seguro seguro_2">
                             <div class="title-target">
                                 <label for="title-seguro">SEGURO DE VIDA</label>
                             </div>
@@ -27,7 +27,7 @@
                                 </center>
                             </div>
                         </div>
-                        <div class="target-seguro auto">
+                        <div class="target-seguro seguro_3">
                             <div class="title-target">
                                 <label for="title-seguro">SEGURO DE AUTO</label>
                             </div>
@@ -37,7 +37,7 @@
                                 </center>
                             </div>
                         </div>
-                        <div class="target-seguro hogar">
+                        <div class="target-seguro seguro_4">
                             <div class="title-target">
                                 <label for="title-seguro">SEGURO DE HOGAR</label>
                             </div>
@@ -47,7 +47,7 @@
                                 </center>
                             </div>
                         </div>
-                        <div class="target-seguro ahorro">
+                        <div class="target-seguro seguro_5">
                             <div class="title-target">
                                 <label for="title-seguro">SEGURO DE AHORRO</label>
                             </div>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="row">
-                        <div class="target-seguro gastos_medicos">
+                        <div class="target-seguro seguro_5">
                             <div class="title-target">
                                 <label for="title-seguro">SEGURO 6</label>
                             </div>
@@ -71,7 +71,7 @@
                                 </center>
                             </div>
                         </div>
-                        <div class="target-seguro vida">
+                        <div class="target-seguro seguro_4">
                             <div class="title-target">
                                 <label for="title-seguro">SEGURO DE VIDA</label>
                             </div>
@@ -81,7 +81,7 @@
                                 </center>
                             </div>
                         </div>
-                        <div class="target-seguro auto">
+                        <div class="target-seguro seguro_3">
                             <div class="title-target">
                                 <label for="title-seguro">SEGURO DE AUTO</label>
                             </div>
@@ -91,7 +91,7 @@
                                 </center>
                             </div>
                         </div>
-                        <div class="target-seguro hogar">
+                        <div class="target-seguro seguro_2">
                             <div class="title-target">
                                 <label for="title-seguro">SEGURO DE HOGAR</label>
                             </div>
@@ -101,7 +101,7 @@
                                 </center>
                             </div>
                         </div>
-                        <div class="target-seguro ahorro">
+                        <div class="target-seguro seguro_1">
                             <div class="title-target">
                                 <label for="title-seguro">SEGURO DE AHORRO</label>
                             </div>

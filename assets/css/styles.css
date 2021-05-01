@@ -35,6 +35,13 @@
     --s_rosa:#f37777;
     --s_cielo:#63d2ff;
 
+    --azul-1:#0091eb;
+    --azul-2:#199ced;
+    --azul-3:#33a7ef;
+    --azul-4:#4cb2f1;
+    --azul-5:#66bdf3;
+    --azul-6:#7fc8f5;
+
     /* footer */
     --background_footer:#143548;
 }
@@ -61,6 +68,7 @@ section{
 .btn-secoundary:hover {
     background: var(--azul-oscuro-primario);
     color: var(--blancos);
+    border: 1px solid var(--blancos);
 }
 
 /* navbar */
@@ -127,7 +135,24 @@ span.navbar-toggler-icon {
     border-radius: 12px;
 }
 
+.card{
+    background: none;
+    border: none;
+}
+
+.btn.btn-link.btn-block.text-left {
+    color: var(--azul-oscuro-primario);
+    font-weight: bold;
+}
+
 .title-secction{
+    color:var(--azul-primario);
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.title{
     color:var(--azul-primario);
     font-size: 24px;
     font-weight: 600;
@@ -137,6 +162,10 @@ span.navbar-toggler-icon {
 .msg-compania{
     margin: 12% 3% 3% 3%;
     color: var(--azul-primario);
+}
+
+.img_compania{
+    margin: 1px -11% 0px -11%;
 }
 
 /* comentarios */
@@ -208,49 +237,33 @@ ol.carousel-indicators.comentarios {
     height: 148px;
     margin: 0px 3% 0px 3%;
     border-radius: 22px;
-    background: #4d9af45c;
+    /* background: #4d9af45c; */
     transition: all 400ms ease;
 }
 
 .target-seguro:hover{
     box-shadow: 13px 16px 4px -2px rgba(0,0,0,0.1);
     transform: translateY(-3%);
-    /* animation-delay: 2s,4ms;
-    width: 145px; */
 }
 
-.gastos_medicos{
-    /* background: var(--t_verd); */
-    background: var(--s_azul_claro);
-    /* #6fa1f0 */
-    /* azul claro */
+.seguro_1{
+    background: var(--azul-1);
 }
 
-.vida{
-    /* background: var(--t_turqueza); */
-    background: var(--s_amarillo);
-    /* #155a8dd9 */
+.seguro_2{
+    background: var(--azul-2);
 }
 
-.auto{
-    /* background:var(--t_melon); */
-    background: var(--s_menta);
-    /* #f2be2c */
-    /* amarillo */
+.seguro_3{
+    background: var(--azul-3);
 }
 
-.hogar{
-    /* background: var(--t_cielo); */
-    background: var(--s_rosa);
-    /* #f37777 */
-    /* rosa */
+.seguro_4{
+    background: var(--azul-4);
 }
 
-.ahorro{
-    /* background: var(--t_menta); */
-    background: var(--s_cielo);
-    /* #63d2ff */
-    /* cielo */
+.seguro_5{
+    background: var(--azul-5);
 }
 
 .title-target {
@@ -395,3 +408,8 @@ ul.servicios {
     margin-bottom: 2em;
 }
 
+/* seccion de contacto */
+.info-box{
+    background: #1aceff5c;
+    padding: 2% 0px 2% 0px;
+}

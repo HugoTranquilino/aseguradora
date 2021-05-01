@@ -4,7 +4,7 @@
         <div class="container">
             <div class="col-md-12">
                 <div class="row ">
-                    <div class="col-md-4 seccion_down">
+                    <div class="col-lg-4 col-md-6 col-xs-12 seccion_down">
                         <div class="footer-principal">
                             <div class="compania">
                                 <a href="#" class="">
@@ -52,10 +52,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 seccion_down">
+                    <div class="col-lg-4 col-md-6 col-xs-12 seccion_down">
                         <section>
                             <div class="title_section_footer">
-                                <label for="" class="title">EMPRESA</label>
+                                <label for="" class="">EMPRESA</label>
                             </div>
                             <div class="content-secction">
                                 <ul class="servicios">
@@ -70,7 +70,7 @@
                         </section>
                         <section>
                             <div class="title_section_footer">
-                                <label for="" class="title">PRODUCTOS</label>
+                                <label for="" class="">PRODUCTOS</label>
                             </div>
                             <div class="content-secction">
                                 <ul class="servicios">
@@ -109,7 +109,7 @@
                         </section>
                         <section>
                             <div class="title_section_footer">
-                                <label for="" class="title">AYUDA</label>
+                                <label for="" class="">AYUDA</label>
                             </div>
                             <div class="content-secction">
                                 <ul class="servicios">
@@ -124,7 +124,7 @@
                         </section>
                         <section>
                             <div class="title_section_footer">
-                                <label for="" class="title">AVISO LEGAL</label>
+                                <label for="" class="">AVISO LEGAL</label>
                             </div>
                             <div class="content-secction">
                                 <ul class="servicios">
@@ -135,9 +135,9 @@
                             </div>
                         </section>
                     </div>
-                    <div class="col-md-4 seccion_down">
+                    <div class="col-lg-4 col-md-12 col-xs-12 seccion_down">
                         <div class="title_section_footer">
-                            <label for="" class="title">CONTACTO</label>
+                            <label for="" class="">CONTACTO</label>
                         </div>
                         <div class="content-secction">
                             <div class="line_item">
@@ -162,16 +162,6 @@
                                 <label for="" class="item_contact">Ubicación: Juan Aldama #981 Sur Col. Centro,
                                     Monterrey, N.L.</label>
                             </div>
-                            <!-- <P>
-                                Teléfono: +52 (81) 8288 8000 <br>
-                                info@kalifaconsultores.com <br>
-                                Lunes - Jueves| 08:15 am - 01:15 pm <br>
-                                |02:30 pm - 06:00 pm <br>
-                                Viernes| 08:15 am - 01:15 pm <br>
-                                | 02:00 pm - 05:00 pm
-                                <br>
-                                Ubicación: Juan Aldama #981 Sur Col. Centro, Monterrey, N.L.
-                            </P> -->
                         </div>
                         <div class="section-map">
                             <div class="col-md-12 col-lg-12 col-xl-12">
@@ -196,6 +186,9 @@
     </footer>
 
     <script src="assets/js/jquery-3.5.1.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script> -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/boxicons.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
